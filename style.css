@@ -1,0 +1,31 @@
+#ques
+{
+    min-height: 400px;
+    /* min-width: 200px; */
+}
+/* .foot
+{
+    max-width: 200px;
+    
+} */
+.borAbout
+{
+  border-style:none;
+}
+.bodyStyle
+{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.btncolor
+{
+     background-color: #0069D9;
+     color: white;
+}
+
+button:hover
+{
+    background-color: blue;
+    border-color: #676767;
+}

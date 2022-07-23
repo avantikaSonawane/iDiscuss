@@ -1,0 +1,28 @@
+  <?php
+      if(isset($_SESSION['loggedin']) &&  $_SESSION['loggedin']==true)
+      {
+
+       
+<div class="container">
+        <h1 class="py-2">Post a comment</h1>
+        <form action="'.$_SERVER["REQUEST_URI"].'" method="POST">
+
+            <div class="form-group">
+                <label for="comment">Type your comment</label>
+                <textarea class="form-control" id="comment" name="comment" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary mb-4">Submit</button>
+        </form>
+    </div>
+    </div>';
+
+} 
+else
+{
+    echo '<div class="container">
+    <h1 class="py-2">Post a comment</h1>
+    <p class="lead">You are not logged in. Please login to start a discussion</p>
+    </div>';
+}
+
+    ?>
